@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %} my indexpage{% endblock %}
+{% block header %}
+    Welcome to safari mid-morning class
+{% endblock %}
+{% block content %}
+    <h5>Gallery</h5>
+    {% load  static %}
+    <img src="{% static 'images/c1.jpg' %}" alt="">
+    <img src="{% static 'images/c2.jpg' %}" alt="">
+    <img src="{% static 'images/c3.jpg' %}" alt="">
+
+{% endblock %}
